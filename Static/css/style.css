@@ -1,0 +1,94 @@
+body {
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+}
+
+.container-1,
+.container-2 {
+  margin-top: 30px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+h2,
+h3 {
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+.flex-box-container-1,
+.flex-box-container-2,
+.flex-box-rps,
+.flex-box-container-4,
+.flex-box-row-1,
+.flex-box-row-2,
+.flex-box-row-3 {
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.flex-box-container-1 div {
+  display: flex;
+  padding: 20px;
+}
+/**************BLACKJACK**************/
+.flex-box-row-1,
+.flex-box-row-2 {
+  background-image: url("../../Static/images/blackjack/blackjack.jpg");
+}
+
+.flex-box-row-1 div {
+  padding: 10px;
+  height: 350px;
+  flex: 1;
+  text-align: center;
+}
+
+.flex-box-row-1 img {
+  width: 25%;
+  padding: 10px;
+}
+
+.flex-box-row-2 button {
+  outline: 0;
+  padding: 10px;
+}
+.flex-box-row-2 div {
+  padding: 10px;
+}
+table,
+th,
+td {
+  border: 1px solid white;
+  padding: 10px; /*th breathng room*/
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+/**************ROCK, PAPER, SCISSORS**************/
+
+.flex-box-container-2 img {
+  display: flex;
+  padding: 20px;
+  width: 150px;
+  height: 175px;
+  margin: 15px;
+
+  box-shadow: 8px 8px 12px red;
+}
+
+.flex-box-rps img {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+}
+
+.flex-box-rps img:hover {
+  box-shadow: 10px 10px 5px #453457;
+}
+
+.container-2 button {
+  margin: 10px auto 20px 45%;
+}
